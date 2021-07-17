@@ -13,10 +13,10 @@ pipeline {
                 git 'https://github.com/nicks204/Simplilearn_Phase5.git'
 
                 // Run Maven on a Unix agent.
-                //sh "mvn test"
+                sh "mvn test"
 
                 // To run Maven on a Windows agent, use
-                bat "mvn test"
+                //bat "mvn test"
             }
         }
     }
