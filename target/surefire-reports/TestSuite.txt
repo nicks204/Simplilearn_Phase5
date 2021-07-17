@@ -1,17 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 12.459 s <<< FAILURE! - in TestSuite
-test.LoginTest.Testcase1[abc@xyz.com, abcd](1)  Time elapsed: 7.907 s  <<< FAILURE!
-org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"css selector","selector":"#msg_box"}
-  (Session info: chrome=83.0.4103.97)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ip-172-31-64-30', ip: '172.31.64.30', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-1111-aws', java.version: '1.8.0_252'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /tmp/.com.google.Chrome.6d9Rkh}, goog:chromeOptions: {debuggerAddress: localhost:39236}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 2ca70a07c9b4db50b4645783f77abffa
-*** Element info: {Using=id, value=msg_box}
-	at test.LoginTest.Testcase1(LoginTest.java:82)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.62 s - in TestSuite
